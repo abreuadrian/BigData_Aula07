@@ -32,3 +32,9 @@ def ex05():
     print(list_prod)
     del list_prod[1]
     print(list_prod)
+
+#Ex06.:
+def ex06():
+    list_prod = ['Notebook', 'Mouse', 'Teclado', 'Monitor']
+    for p in list_prod:
+        print(p)
