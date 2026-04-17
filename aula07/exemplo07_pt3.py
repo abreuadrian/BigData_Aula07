@@ -1,6 +1,6 @@
 #Ex01.:
 def ex01():
-    META = 1000
+    META = 1000   #Constante
     META_MIN = 700
     list_vendas = []
 
@@ -16,4 +16,3 @@ def ex01():
             print(f'{list_vendas.index(c)+1}ª venda: Quase! - Valor: R${c:.2f}')
         else:
             print(f'{list_vendas.index(c)+1}ª venda: Abaixo do esperado! - Valor: R${c:.2f}')
-
