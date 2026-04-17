@@ -16,5 +16,5 @@ def ex01():
     print('\nLivros a partir de 2020:')
     for c in list_livros:
         if c['Ano'] >= 2020:
-            print(c) 
+            print(f'{c['Nome']} - {c['Ano']}') 
 ex01()
