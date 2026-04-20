@@ -12,9 +12,8 @@ def ex01():
         dict_livro['Páginas'] = int(input('Número de páginas: '))
         list_livros.append(dict_livro)
         print('\nLivro Cadastrado')
-
     print('\nLivros a partir de 2020:')
     for c in list_livros:
         if c['Ano'] >= 2020:
-            print(f'{c['Nome']} - {c['Ano']}') 
+            print(f'{c['Título']} - {c['Ano']}') 
 ex01()
